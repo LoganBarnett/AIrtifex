@@ -38,8 +38,9 @@ flume = "0.10.14"
 num_cpus = "1.15.0"
 tempfile = "3"
 
-tch = "0.13"
-diffusers = { git = "https://github.com/LaurentMazare/diffusers-rs" }
+tch = "0.15"
+# diffusers = { git = "https://github.com/LaurentMazare/diffusers-rs" }
+diffusers = { branch = "torch-sys-upgrade", git = "https://github.com/LoganBarnett/diffusers-rs"}
 anyhow = "1.0.70"
 
 [dependencies.sqlx]
